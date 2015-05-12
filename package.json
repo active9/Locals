@@ -1,6 +1,6 @@
 {
   "name": "locals",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Locals Middleware",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,12 @@
     "language"
   ],
   "author": "Active 9 LLC.",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "example": "examples"
+  },
+  "bugs": {
+    "url": "https://github.com/active9/Locals/issues"
+  },
+  "homepage": "https://github.com/active9/Locals"
 }
