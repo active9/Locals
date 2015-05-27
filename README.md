@@ -1,14 +1,17 @@
 # Locals
 ![Locals](https://raw.githubusercontent.com/active9/locals/master/locals.png)
 
-A Locals Middleware For NodeJS
+A Localization Middleware For NodeJS
 
-##Installing
+#Installing
 ```bash
 npm install locals --save
 ```
 
-##USING
+#LOCALS
+Locals currently only supports translations but in the future will support many more features. (see TODO).
+
+#USING
 To use locals within your application or module you can use the following javascript example:
 ```javascript
 var locals = require('locals')({
@@ -22,10 +25,10 @@ locals.init(function() {
 });
 ```
 
-##Introduction
+#Introduction
 Locals utilizes a Folder and Json based hierarchy for loading and translating locale data. Locale data can then be used to translate text from a given language to any other given language. Locals uses the 2 digit ISO standard for language designation. All locals are created manually by the author as only a basic local demonstration set has been added to this release.
 
-##Locals Structure
+#Locals Structure
 Locals uses folders to load locale data. The follow folder structure is used in creation of a base language to translate from:
 ```bash
 ./locals/en
@@ -44,8 +47,15 @@ Where each json file represents the locale to translate to from the parent folde
 
 For direct reference see the examples folder within the package or on github.
 
+#TODO
 
-##CONTRIBUTING
+- Distance Lookups
+- Geo Targeting
+- Planetary Data Locations
+- Triangulation
+- Currency Conversions
+
+#CONTRIBUTING
 
 We encourage forking. Feel free to fork & pull your new additions, or bug fixes.
 
